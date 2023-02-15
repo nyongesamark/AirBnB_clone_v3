@@ -2,4 +2,4 @@
 -- if the database does not exits your script should not fail
 -- you are not allowed to use SELECT OR SHOW
 
-DROP DATABASE IF EXISTS htbtn_0c_0;
+DROP DATABASE IF EXISTS hbtn_0c_0;
