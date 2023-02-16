@@ -4,7 +4,7 @@
 -- use one select statement
 -- The databse name will be passed as an argment of the mysql command
 
-SELECT tv_shows.title, SUM(tv_show_ratingd.rate) AS rating
+SELECT tv_shows.title, SUM(tv_show_ratings.rate) AS rating
 FROM  tv_shows
 INNER JOIN tv_show_ratings
 ON tv_shows.id=tv_show_ratings.show_id
